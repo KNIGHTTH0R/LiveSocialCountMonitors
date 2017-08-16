@@ -9,7 +9,7 @@ videos = 0
 while 1:
 	try:
 		stringStat = ''
-		result = urllib2.urlopen("https://www.googleapis.com/youtube/v3/channels?part=statistics&id=UCQdi3MDHHMm7u3cMkEY329Q&key=AIzaSyBGgw6d1ImZUsoxMTyB5AEP_zNxx0FvBFA").read()
+		result = urllib2.urlopen("https://www.googleapis.com/youtube/v3/channels?part=statistics&id=YouTubeID&key=APIkey").read()
 	
 	
 		for stat in result:
